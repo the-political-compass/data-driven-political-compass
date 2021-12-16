@@ -1,7 +1,7 @@
 # What guides our political affiliations?
 
 <!--
-> OOOOOOHHHH YEAAAAHHH BOY LET'S GOOO!!
+> OOOOOOHHHHH YEAAAAHHH BOY LET'S GOOO!!
 >
 > – <cite> Vince McMahon </cite>
 -->
