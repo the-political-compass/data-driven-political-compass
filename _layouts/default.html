@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>{{ site.title | escape }}</title>
+    <meta name="description" content="
+    {% if page.excerpt %}
+      {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+    {% else %}
+      {{ site.description }}{% endif %}"
+    >
+
+    <link rel="stylesheet" href="https://use.typekit.net/zgh3lma.css">
+
+    {% assign user_url = site.url | append: site.baseurl %}
+    {% assign full_base_url = user_url | default: site.github.url %}
+    <link rel="stylesheet" href="{{ "assets/css/main.css" | prepend: full_base_url }}">
+
+    <link rel="canonical" href="
+      {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}
+    ">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/compass.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/compass.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/compass.jpg">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/compass.jpg" color="#0e285c">
+    <link rel="shortcut icon" href="assets/favicon/compass.jpg">
+    <meta name="apple-mobile-web-app-title" content="The Political Compass">
+    <meta name="application-name" content="The Political Compass">
+    <meta name="msapplication-TileColor" content="#0e285c">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+    {% include question.html
+      text=site.title
+      content="What does the modern political debate look like in quotes?"
+    %}
+
+    <main class="container">
+      <div class="row">
+        <div class="col-12">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            This project is part of the course Applied Data Analysis at the École Polytechnique Fédérale de Lausanne.<br>
+            Authors:
+            <br />
+            <a href="https://github.com/frasalvi">Francesco Salvi</a>,
+            <a href="https://github.com/Jirka-Lhotka">Jirka Lhotka</a>,
+            <a href="https://github.com/lukasvandenheuvel">Lukas van den Heuvel</a> and
+            <a href="https://github.com/AlianBenabdallah">Ali Benabdallah</a>.
+
+            <br /><br />
+            <a
+              class="text-secondary"
+              href="https://github.com/the-political-compass/the-political-compass">
+              <img src="assets/img/octicon.svg"/> This website
+            </a>
+            <br />
+            <a
+              class="text-secondary"
+              href="https://github.com/epfl-ada/ada-2021-project-alan">
+              <img src="assets/img/octicon.svg"/> The associated notebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="{{ "assets/js/main.js" | prepend: full_base_url }}"></script>
+  </body>
+</html>
