@@ -24,6 +24,9 @@ github_username:  the-political-compass
 # Build settings
 markdown: kramdown
 
+remote_theme: benbalter/retlab
+plugins:
+  - jekyll-remote-theme
 
 
 # Exclude from processing.
