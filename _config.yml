@@ -18,7 +18,7 @@ title: The Political Compass
 description: >- # this means to ignore newlines until "baseurl:"
   What does the modern political debate look like?
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://the-political-compass.github.io/"
+url: "https://the-political-compass.github.io"
 github_username:  the-political-compass
 
 # Build settings
