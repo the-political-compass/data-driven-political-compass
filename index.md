@@ -23,21 +23,20 @@ Looking at the politicians with the most quotes, we can see evidence of what sta
 
 ### Dominant Topics
 
-Having examined the politicians behind the quotes, let's now investigate their content. To do so we use a tool called [BERTopic](https://maartengr.github.io/BERTopic/index.html), which allows us to learn and extract the topics that best characterise our quotes, leading us to the top 1000 significant topics [^1]. Of course, 1000 topics is a bit too many to interpret and to create a political compass, so we will need to reduce this down further. Before we do, let's get some insights about what the most significant topics are!
+Having examined the politicians behind the quotes, let's now investigate their content. To do so we use a tool called [BERTopic](https://maartengr.github.io/BERTopic/index.html), which allows us to learn and extract the topics that best characterise our quotes, leading us to the top 1000 significant topics[^1]. Of course, 1000 topics are a bit too much to interpret and to create a political compass, so we will need to reduce this down further. For now, though, let's get some insights about what the most discussed topics are!
 
-<!-- some kind of plot? -->
+<div>
+    <img src="assets/img/wordcloud_topics.png" width="100%" height="100%">
+</div>
+<p style="color:grey">Representation of 4 out of the 10 most discussed topics<p>
 
-Amongst the 10 topics with most quotes, many are uncannily familiar: Hillary Clinton, Iran, Womens' Rights, Taxation or Youth.
+Amongst the 10 topics with most quotes, many are uncannily familiar: Iran and the [JCPOA](https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action), Taxation, Women and their rights, Youth, Hillary Clinton or Police officiers. More than half of the quotes, though, do not belong to any of the 1000 topics, being thus unrelevant or unmeaningful.
 
 > We have to tell young people that it does matter, every vote counts!
 >
 > – <cite> Most representative quote for the "Youth" topic </cite>
 
-These topics are the ones which are most talked about, but are they also most divisive? Let's find out!
-
-<div>
-    <img src="assets/img/wordcloud_topics.png" width="100%" height="100%">
-</div>
+These topics are the most talked about, but will they also be the most divisive?
 
 ### Divisive Topics
 
