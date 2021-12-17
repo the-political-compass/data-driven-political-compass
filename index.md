@@ -28,7 +28,7 @@ Having examined the politicians behind the quotes, let's now investigate their c
 <div>
     <img src="assets/img/wordcloud_topics.png" width="100%" height="100%">
 </div>
-<p style="color:grey">Representation of 4 out of the 10 most discussed topics<p>
+<p style="color:grey">Representation of 4 out of the 10 most discussed topics</p>
 
 Amongst the 10 topics with most quotes, many are uncannily familiar: Iran and the [JCPOA](https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action), Taxation, Women and their rights, Youth, Hillary Clinton or Police officiers. More than half of the quotes, though, do not belong to any of the 1000 topics, being thus unrelevant or unmeaningful.
 
