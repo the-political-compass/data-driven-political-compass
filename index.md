@@ -94,9 +94,11 @@ Adding a third axis leads to a vast improvement in results. Suddenly, we can see
 
 Having extracted the 3 axes that best divide the american political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. Republicans and Democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
 
-<!-- topics for axis 3 -->
+> Guns, Airports, Paul Ryan, Police officiers, Gangs
+>
+> – <cite> Five most representative topics for Axis 3 </cite>
 
-Closer inspection gives a clear indication on some axes but not on others. Let's consider them in order of interpretability: the 3rd axes, the one that truly achieves separation of political axes contains an all too familiar topic – gun control. This is the number one most important topic closely followed by topics to do with policing such as "law enforcement" or "police officers". Interestingly, attitude towards speaker of the house [Paul Ryan](https://it.wikipedia.org/wiki/Paul_Ryan) also seems to be strongly included, which might be because of his view on the above topics. Overall, we suppose this axis could be labelled the **law and order axis** – do politicians believe that people should have the right to defend themselves? Should the police be a repressive force punishing wrongdoings or rather a progressive force fighting for social good?
+Closer inspection gives a clear indication on some axes but not on others. Let's consider them starting from the 3rd axes, the one that truly achieves separation of political parties. The number one most important topic here is an all too familiar topic – gun control –, followed by topics that have to do with policing such a "police officers" or "gangs". Interestingly, attitude towards speaker of the house [Paul Ryan](https://it.wikipedia.org/wiki/Paul_Ryan) also seems to be strongly included, which might be because of his view on the above topics. Overall, we suppose this axis could be labelled the **law and order axis** – do politicians believe that people should have the right to defend themselves? Should the police be a repressive force punishing wrongdoings or rather a progressive force fighting for social good?
 
 > President, Guns, Safety, Sanctuary cities, Governor
 >
