@@ -19,7 +19,7 @@ For simplicity, we decided to focus only on quotes attributed to alive American 
 
 Looking at the politicians with the most quotes, we can see evidence of what statisticians call a "power law" (commonly also known as the [80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)): few most quoted politicians completely dominate the debate, in spite of all the others. The most quoted politician, Donald Trump, accounts alone for almost 8% of all the quotes. To understand just how dominant that is, consider that if the quotes were uniformly distributed among our 14k politicians, an average politician should only account for 0.007% of the quotes! Indeed, our data even trump the 80-20 rule, as the top 20% of politicians account for almost 88% of the quotes. This shows that, in today's world, few of the loudest politicians completely dominate media coverage, while the majority of politicians are given very little attention. Hence, we are seeing confirmation of the existence of a [silent majority](https://en.wikipedia.org/wiki/Silent_majority) that does not express its views publicly, or does so with little to no coverage.
 
-<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px">
+<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="520px">
 
 ### Dominant Topics
 
@@ -53,7 +53,7 @@ The analysis shows that most divisive topics are in fact not topics of long-term
 
 Also, it might be interesting to have a look at the sentiments on these topics of some prominent American politicians, whose opinions are generally well-known.
 
-<embed type="text/html" src="assets/plotly/heatmap.html" width="810px" height="720px">
+<embed type="text/html" src="assets/plotly/heatmap.html" width="810px" height="620px">
 <p style="color:grey"> In the above figure, topics above the line correspond to the 10 most divisive topics. The ones below the line, in <i>italics</i>, are instead some of the most dominant topics.</p>
 
 On average, the sentiments of politicians of each party reflect the party sentiments showed before, and for specific people it corresponds very well to what we would expect. For example, Hillary Clinton has a very negative sentiment towards Republican politicians and appointees or towards the [Pittsburgh shooting](https://en.wikipedia.org/wiki/Pittsburgh_synagogue_shooting), but has a pretty neutral sentiment towards Paris climate accord, which is coherent with the fact that climate has not exactly been one of her top priorities in the 2016 campaign. On the other side, John McCain has positive sentiments towards his party colleagues, but has a very negative opinion of the Democrat [Adam Schiff](https://en.wikipedia.org/wiki/Adam_Schiff). Despite that, there are also speakers whose sentiments are pretty confusing: why does Joe Biden have such a positive opinion of Mike Pompeo, and why the latter have such a low self-esteem? Overall, though, we can see clearly why these topics are the most divisive ones – the sentiments vary widely between opposite extremes. In contrast, the sentiments of the dominant topics we picked are very mild, and vastly similar for everyone.
