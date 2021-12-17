@@ -9,7 +9,7 @@ $font-weight-base: 300;
 $font-size-base:  1.25rem;
 
 $themecolors:(
-  darkblue: #0E285C,
+  darkblue: #200670,
   intermedblue: #5B698C,
   lightblue: #BDD8F2,
   green: #84CFAC,
@@ -82,7 +82,7 @@ p + p {
   &.in-text { margin-top: $margin-around-images; }
 
   color: white;
-  transition: background-color 0.35s;
+  transition: background-color 1s;
 
 
   // colors

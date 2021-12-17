@@ -8,9 +8,11 @@
 
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
-<!--This is a bit shit, replace by better image 
-![Example of traditional policital compass](https://2.bp.blogspot.com/-mj4BKwVVT0E/UyBQIwfMv3I/AAAAAAAACbs/bClT9FdMPgU/s1600/Social+democracy+2014.png "Example of traditional compass")-->
-![Example of traditional policital compass](images/compass_famous.png "Example of traditional compass")
+<!--
+This is a bit shit, replace by better image 
+![Example of traditional policital compass](https://2.bp.blogspot.com/-mj4BKwVVT0E/UyBQIwfMv3I/AAAAAAAACbs/bClT9FdMPgU/s1600/Social+democracy+2014.png "Example of traditional compass")
+-->
+![Example of traditional policital compass](assets/img/compass_famous.png "Example of traditional compass")
 <sub> © PACE NEWS LTD 2021 </sub>
 
 Traditionally, all these compasses are built using 2 axis: a horizontal left-right econonomic scale, and a vertical authoritarian-libertarian social scale. But do these axes really define accurately the political divide of today, when political affiliations are shifting and traditional sticking points no longer hold?
@@ -26,7 +28,11 @@ For simplicity, we decided to focus only on quotes attributed to alive American 
 
 Looking at the politicians with the most quotes, we can see evidence of what statisticians call a "power law" (commonly also known as the [80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)): few most quoted politicians completely dominate the debate, in spite of all the others. The most quoted politician, Donald Trump, accounts alone for almost 8% of all the quotes. To understand just how dominant that is, consider that if the quotes were uniformly distributed among our 14k politicians, an average politician should only account for 0.007% of the quotes! Indeed, our data even trump the 80-20 rule, as the top 20% of politicians account for almost 88% of the quotes. This shows that, in today's world, few of the loudest politicians occupy the vast majority of media coverage, while the greatest part of politicians are given very little attention. Hence, we are seeing confirmation of the existence of a [silent majority](https://en.wikipedia.org/wiki/Silent_majority) that does not express its views publicly, or does so with little to no coverage.
 
+<!--
 <iframe src="assets/plotly/number_of_quotes.html"></iframe>
+-->
+
+<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="500px"> 
 
 <!--
 ![Quote distribution shows strong dominance of loudest politicians](https://via.placeholder.com/800x300?text=Placeholder+Image "Loudest policitians dominate debate")
@@ -56,7 +62,17 @@ Then, we focused on the republican/democratic divide. On which topics do their s
 ![Most divisive topics are transitory culture-war issues](https://via.placeholder.com/800x300?text=Placeholder+Image "Most divisive topics")
 -->
 
-<iframe src="assets/plotly/bubbleplot.html" height="900"></iframe>
+<embed type="text/html" src="assets/plotly/bubbleplot.html" width="800px" height="720px"> 
+
+<!--
+<div>
+    <iframe src="assets/plotly/bubbleplot.html" scrolling="no" frameborder="0" seamless="seamless" allowfullscreen height="1700px" width="1000px"></iframe>
+</div>
+-->
+
+<span style="color:grey; font-size:25px">
+In the figure above, the 10 topics that most divide democrats and republicans are represented as dots. The larger the dot, the more the topic is talked about in the news --- so Brett Kavanaugh received a lot of attention. Most points topics are on the top left of the graph, so on these 10 divisive topics, republicans are often more positive than democrats. 
+</span>
 
 The analysis shows that most divisive topics are in fact not topics of long-term vision for the country but rather those relating to transient issues that we could label as part of "culture wars" – they are related to particular people who polarized the public debate such as Mike Pompeo and Mike Pence or former FBI director Jim Comey. Interestingly, a topic about former president Donald Trump is not present. The only long-term topic out of the most divisive ones is the 'Rejection of Paris accord' which unsurprisingly triggered positive sentiments from republicans. Another interesting finding is that 2 out of the top 10 most divisive topics are Trump-appointed Supreme Court Justices, Kavanaugh and Gorsuch, showing the politicization of the Supreme Court which has become a powerful player in a country with blocked legislature.
 <!--{'920': 'Mike Pompeo','380': 'Mike Pence','558': 'Judge Neil Gorsuch','680': 'John Bolton','143': 'Kavanaugh family','208': 'FBI and Jim Comey','360': 'FISC, Adam Schiff','566': 'Rejection of Paris accord','615': 'Marco Rubio','841': 'Pittsburgh shooting'}-->
