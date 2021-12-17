@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     @include media-breakpoint-up(sm) { font-size: 4.5em; }
     @include media-breakpoint-up(md) { font-size: 6em; }
     @include media-breakpoint-up(lg) { font-size: 6.5em; }
-    @include media-breakpoint-up(xl) { font-size: 8em; }
+    @include media-breakpoint-up(xl) { font-size: 6em; }
 
     line-height: 0.9;
     font-weight: bold;

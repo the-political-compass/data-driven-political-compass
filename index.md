@@ -1,5 +1,3 @@
-# What guides our political affiliations?
-
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
 <!--
@@ -80,7 +78,7 @@ The analysis shows that most divisive topics are in fact not topics of long-term
 <!-- heatmap? wordclouds? -->
 
 {% include question.html in_text=true
-  text="A data-driven Political Compass"
+  text="Inferring a new<br> Political Compass"
   image_url="assets/img/background.jpg"
 %}
 
