@@ -77,7 +77,7 @@ Then, we focused on the republican/democratic divide. On which topics do their s
 </div>
 -->
 
-<span style="color:grey; font-size:25px">
+<span style="color:grey">
 In the figure above, the 10 topics that most divide democrats and republicans are represented as dots. The larger the dot, the more the topic is talked about in the news --- so Brett Kavanaugh received a lot of attention. Most points topics are on the top left of the graph, so on these 10 divisive topics, republicans are often more positive than democrats. 
 </span>
 
