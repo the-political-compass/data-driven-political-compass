@@ -1,4 +1,3 @@
-
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
 <!--
@@ -6,7 +5,7 @@ This is a bit shit, replace by better image
 ![Example of traditional policital compass](https://2.bp.blogspot.com/-mj4BKwVVT0E/UyBQIwfMv3I/AAAAAAAACbs/bClT9FdMPgU/s1600/Social+democracy+2014.png "Example of traditional compass")
 -->
 ![Example of traditional policital compass](assets/img/compass_famous.png "Example of traditional compass")
-<sub> © PACE NEWS LTD 2021 </sub>
+<sub> © PACE NEWS LTD 2021  </sub>
 
 Traditionally, all these compasses are built using 2 axis: a horizontal left-right econonomic scale, and a vertical authoritarian-libertarian social scale. But do these axes really define accurately the political divide of today, when political affiliations are shifting and traditional sticking points no longer hold?
 
@@ -75,7 +74,7 @@ The analysis shows that most divisive topics are in fact not topics of long-term
 <!-- heatmap? wordclouds? -->
 
 {% include question.html in_text=true
-  text="A data-driven Political Compass"
+  text="Inferring a new<br> Political Compass"
   image_url="assets/img/background.jpg"
 %}
 
