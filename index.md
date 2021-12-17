@@ -31,7 +31,7 @@ Looking at the politicians with the most quotes, we can see evidence of what sta
 <iframe src="assets/plotly/number_of_quotes.html"></iframe>
 -->
 
-<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px"> 
+<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px">
 
 <!--
 ![Quote distribution shows strong dominance of loudest politicians](https://via.placeholder.com/800x300?text=Placeholder+Image "Loudest policitians dominate debate")
@@ -61,7 +61,7 @@ Then, we focused on the Republican/Democratic divide. On which topics do their s
 ![Most divisive topics are transitory culture-war issues](https://via.placeholder.com/800x300?text=Placeholder+Image "Most divisive topics")
 -->
 
-<embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px"> 
+<embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px">
 
 <!--
 <div>
@@ -84,12 +84,17 @@ The analysis shows that most divisive topics are in fact not topics of long-term
 
 Our analyses of the 1000 learned topics yielded interesting results, but clearly having 1000 topics is not exactly practical for a political compass! That is why, as the next step, we reduced them extracting the most important axes of partisan division, which consist of combinations of the above topics that best divide Democrats and Republicans[^3].
 
-#### 3 Axes Is All You Need
-First, we tried to reduce the number of axes to two to compare our compass to the original political compass. However, we found out two axes were far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate such as former presidents Trump and Obama ended up being clustered close together in one large ball of politicians.
+### 3 Axes Is All You Need
 
-Adding a third axes led to a vast improvement in results. Suddenly, we can see a clear difference between republicans and democrats with radicals of both parties such as President Trump or Alexandria Ocasio Cortez appearing on the extremes as outliers while centrists such as Virginia Senator <!---TODO: CHeck he is virginia!! --> Joe Manchin being much more in the middle of the overall distribution of political opinions. While this is in no way conclusive, the result of addition of a third axis supports our original hypothesis that just dividing politicians among two lines is far from sufficient to capture even a simplified version of the complexity of contemporary political divide. 
+Firstly, we try to reduce the number of axes to 2, to compare our results to the traditional political compass showed at the beginning.
 
-#### Offense, player, and Starbucks?
+<!-- plot --->
+
+However, it's pretty clear that 2 axes are far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate, such as former presidents Trump and Obama, ended up being clustered pretty close together in one large ball of politicians.
+
+Adding a third axes led to a vast improvement in results. Suddenly, we can see a clear difference between republicans and democrats with radicals of both parties such as President Trump or Alexandria Ocasio Cortez appearing on the extremes as outliers while centrists such as Virginia Senator <!---TODO: CHeck he is virginia!! --> Joe Manchin being much more in the middle of the overall distribution of political opinions. While this is in no way conclusive, the result of addition of a third axis supports our original hypothesis that just dividing politicians among two lines is far from sufficient to capture even a simplified version of the complexity of contemporary political divide.
+
+### Offense, player, and Starbucks?
 
 Having identified the 3 axes that best divide the american political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. republicans and democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
 
@@ -98,18 +103,19 @@ Closer inspection gives a clear indication on some axes but not on others. Let's
 The first axes could perhaps be best described as the **authoritativeness** axes, interestingly in correspondence with the traditional political compass. Topics here include mostly attitudes towards positions of power, number one topics concerns presidents (both american and chinese), others include governors, or sanctuary cities (municipalities that have special policies in place to deliberately limit their cooperation with federal immigration agencies).
 
 > President, Guns, Safety, Sanctuary, Governor
-> 
+>
 > – <cite> Five most representative topics for Axis 1 </cite>
 
 Finally, the second axis is the toughest nut to crack. The top words best characterizing the top 5 topics that best define this axis are "offense", "player", "buildings", "right history" and "starbucks". Despite a thorough analysis, we have not been able to find a meaningful interpretation of this axis: who would have though attitudes to sports and starbucks are such a powerful determinant of standing in american politics!
 
 > Offense, Player, Buildings, Right History, Starbucks
-> 
+>
 > – <cite> Five most representative topics for Axis 2 </cite>
 
 All in all, we have to admit the interpretation of the axes seems more of an art than science. One is completely uninterpretable and the other two have both contain gun control as one of the most significant topics. On the bright side, these axes do separate politicians extremely well so in some sense they do show the real world as it is – but perhaps just like the real world, we do not fully understand them yet. That said, they do clearly highlight the role of gun control, law enforcement and relation to political authorities as some of the most divisive topics of US politics in 2021 with other traditional themes such as economy and taxation nowhere in sight.
 
-# 5 Key Takeaways
+## 5 Key Takeaways
+
 - Few politicians completely dominate the public debate – **silent majority** phenomenom does exist!
 - Topics politicians most talk about are not the ones where they most disagree – contrary to popular opinion, they agree on many issues!
 - Topics that most divide politicians are mostly "culture wars" ephemeral topics that have little to do with a greater vision for the country.
@@ -122,4 +128,4 @@ All in all, we have to admit the interpretation of the axes seems more of an art
 
 [^2]: From this step, we removed politicians with less than 1000 quotes and that have expressed themselves on less than 150 topics (the 15%), as lower thresholds under which we consider unlikely to obtain a sufficient representation of opinions. If politicians did not express an opinion towards a topic, we left their sentiment as NaN, eventually replacing it with 0 after standardization for further processing.
 
-[^3]: This approach has some clear shortcomings – by maximizing the difference between republicans and democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, only a supervised method such as [Neighbourhood components analysis](https://en.wikipedia.org/wiki/Neighbourhood_components_analysisthis) (NCA) gave us interesting results in terms of separation. We also tried using PCA, t-SNE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result.
+[^3]: This approach has some clear shortcomings – by maximizing the difference between Republicans and Democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, only a supervised method such as [Neighbourhood components analysis](https://en.wikipedia.org/wiki/Neighbourhood_components_analysisthis) (NCA) gave us interesting results in terms of separation. We also tried using PCA, t-SNE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result. Also, in all the subsequent NCA plots, dimensionality reduction was applied on top of a matrix which in addition to the average sentiment also takes into account the interest in each topic, weighting the sentiment logarithmically with the number of quotes.
