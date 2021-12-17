@@ -114,7 +114,7 @@ All in all, we have to admit the interpretation of the axes seems more of an art
 
 <!-- ## 5 Key Takeaways -->
 
-{% include question.html in_text=true
+{% include question.html in_text=false
   text="Key Takeaways"
   image_url="assets/img/background.jpg"
 %}
