@@ -33,11 +33,7 @@ Looking at the politicians with the most quotes, we can see evidence of what sta
 <iframe src="assets/plotly/number_of_quotes.html"></iframe>
 -->
 
-<<<<<<< HEAD
-<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="500px">
-=======
-<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px"> 
->>>>>>> 9c43ce74a57bbb32f256b3dbb5d0710512f051ee
+<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px">
 
 <!--
 ![Quote distribution shows strong dominance of loudest politicians](https://via.placeholder.com/800x300?text=Placeholder+Image "Loudest policitians dominate debate")
@@ -67,11 +63,7 @@ Then, we focused on the Republican/Democratic divide. On which topics do their s
 ![Most divisive topics are transitory culture-war issues](https://via.placeholder.com/800x300?text=Placeholder+Image "Most divisive topics")
 -->
 
-<<<<<<< HEAD
-<embed type="text/html" src="assets/plotly/bubbleplot.html" width="800px" height="720px">
-=======
-<embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px"> 
->>>>>>> 9c43ce74a57bbb32f256b3dbb5d0710512f051ee
+<embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px">
 
 <!--
 <div>
