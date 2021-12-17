@@ -25,9 +25,8 @@ Looking at the politicians with the most quotes, we can see evidence of what sta
 
 Having examined the politicians behind the quotes, let's now investigate their content. To do so we use a tool called [BERTopic](https://maartengr.github.io/BERTopic/index.html), which allows us to learn and extract the topics that best characterise our quotes, leading us to the top 1000 significant topics[^1]. Of course, 1000 topics are a bit too much to interpret and to create a political compass, so we will need to reduce this down further. For now, though, let's get some insights about what the most discussed topics are!
 
-<div>
-    <img src="assets/img/wordcloud_topics.png" width="100%" height="100%">
-</div>
+<img src="assets/img/wordcloud_topic_5.png" width="47%"> <img src="assets/img/wordcloud_topic_6.png" width="47%">
+<img src="assets/img/wordcloud_topic_7.png" width="47%"> <img src="assets/img/wordcloud_topic_8.png" width="47%">
 <p style="color:grey">Representation of 4 out of the 10 most discussed topics</p>
 
 Amongst the 10 topics with most quotes, many are uncannily familiar: Iran and the [JCPOA](https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action), Taxation, Women and their rights, Youth, Hillary Clinton or Police officiers. More than half of the quotes, though, do not belong to any of the 1000 topics, being thus unrelevant or unmeaningful.
