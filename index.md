@@ -1,4 +1,3 @@
-# What guides our political affiliations?
 
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
@@ -18,10 +17,6 @@ To find it out, we analyze [Quotebank](https://zenodo.org/record/4277311), a dat
   text="What dominates the political debate?"
   image_url="assets/img/background.jpg"
 %}
-
-<!--
-## What dominates the political debate?
--->
 
 For simplicity, we decided to focus only on quotes attributed to alive American politicians, published between 2015 and 2020. We decided to focus only on the US to reduce the impact of local, country-specific topics, and to have a well-known framework of investigation as the US political system is. After filtering with said criteria, we are left with 9.5 million quotes from 14'000 different speakers. <!--Maybe add a comment about why 14k is ok because it sounds like a LOT--> Let's now have a look at what it is that these politicians talk about – but before we do, let's see who they are!
 
@@ -92,36 +87,45 @@ Firstly, we try to reduce the number of axes to 2, to compare our results to the
 
 <!-- plot --->
 
-However, it's pretty clear that 2 axes are far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate, such as former presidents Trump and Obama, ended up being clustered pretty close together in one large ball of politicians.
+However, it's pretty clear that 2 axes are far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate, such as former presidents Trump and Obama, ended up being clustered pretty close together, with everybody else in one large ball of politicians.
 
-Adding a third axes led to a vast improvement in results. Suddenly, we can see a clear difference between republicans and democrats with radicals of both parties such as President Trump or Alexandria Ocasio Cortez appearing on the extremes as outliers while centrists such as Virginia Senator <!---TODO: CHeck he is virginia!! --> Joe Manchin being much more in the middle of the overall distribution of political opinions. While this is in no way conclusive, the result of addition of a third axis supports our original hypothesis that just dividing politicians among two lines is far from sufficient to capture even a simplified version of the complexity of contemporary political divide.
+Adding a third axis leads to a vast improvement in results. Suddenly, we can see a clear difference between republicans and democrats, with radicals of both parties such as President Trump or Alexandria Ocasio Cortez appearing on the extremes as outliers, while centrists such as West Virginia Senator Joe Manchin are much more in the middle of the overall distribution of political opinions. While this is in no way conclusive, the result of addition of a third axis supports our original hypothesis that just dividing politicians among two lines is far from sufficient to capture even a simplified version of the complexity of contemporary political divide.
 
 ### Offense, player, and Starbucks?
 
-Having identified the 3 axes that best divide the american political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. republicans and democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
+Having extracted the 3 axes that best divide the american political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. Republicans and Democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
 
-Closer inspection gives a clear indication on some axes but not on others. Let's consider them in order of interpretability: the 3rd axes, the one that truly achieves separation of political axes contains an all too familiar topic – gun control. This is the number one most important topic closely followed by topics to do with policing such as "law enforcement" or "police officers". Interestingly, attitude towards speaker of the house Paul Ryan also seems to be strongly included which might be because of his view on the above topics. Overall, we suppose this axis could be labelled the **law and order axis** – do politicians believe that people should have the right to defend themselves? Should the police be a repressive force punishing wrongdoings or rather a progressive force fighting for social good?
+<!-- topics for axis 3 -->
 
-The first axes could perhaps be best described as the **authoritativeness** axes, interestingly in correspondence with the traditional political compass. Topics here include mostly attitudes towards positions of power, number one topics concerns presidents (both american and chinese), others include governors, or sanctuary cities (municipalities that have special policies in place to deliberately limit their cooperation with federal immigration agencies).
+Closer inspection gives a clear indication on some axes but not on others. Let's consider them in order of interpretability: the 3rd axes, the one that truly achieves separation of political axes contains an all too familiar topic – gun control. This is the number one most important topic closely followed by topics to do with policing such as "law enforcement" or "police officers". Interestingly, attitude towards speaker of the house [Paul Ryan](https://it.wikipedia.org/wiki/Paul_Ryan) also seems to be strongly included, which might be because of his view on the above topics. Overall, we suppose this axis could be labelled the **law and order axis** – do politicians believe that people should have the right to defend themselves? Should the police be a repressive force punishing wrongdoings or rather a progressive force fighting for social good?
 
-> President, Guns, Safety, Sanctuary, Governor
+> President, Guns, Safety, Sanctuary cities, Governor
 >
 > – <cite> Five most representative topics for Axis 1 </cite>
 
-Finally, the second axis is the toughest nut to crack. The top words best characterizing the top 5 topics that best define this axis are "offense", "player", "buildings", "right history" and "starbucks". Despite a thorough analysis, we have not been able to find a meaningful interpretation of this axis: who would have though attitudes to sports and starbucks are such a powerful determinant of standing in american politics!
+The first axes could perhaps be best described as the **authoritativeness** axes, interestingly in correspondence with the traditional political compass. Topics here include mostly attitudes towards positions of power, number one topics concerns presidents (both american and chinese), others include governors, or [sanctuary cities](https://en.wikipedia.org/wiki/Sanctuary_city) (municipalities that have special policies in place to deliberately limit their cooperation with federal immigration agencies).
 
 > Offense, Player, Buildings, Right History, Starbucks
 >
 > – <cite> Five most representative topics for Axis 2 </cite>
 
-All in all, we have to admit the interpretation of the axes seems more of an art than science. One is completely uninterpretable and the other two have both contain gun control as one of the most significant topics. On the bright side, these axes do separate politicians extremely well so in some sense they do show the real world as it is – but perhaps just like the real world, we do not fully understand them yet. That said, they do clearly highlight the role of gun control, law enforcement and relation to political authorities as some of the most divisive topics of US politics in 2021 with other traditional themes such as economy and taxation nowhere in sight.
+Finally, the second axis is the toughest nut to crack. The best words characterizing the top 5 topics that most contribute in this axis are "offense", "player", "buildings", "right history" and "starbucks". Despite a thorough analysis, we have not been able to find a meaningful interpretation of this axis: who would have though attitudes to sports and starbucks are such a powerful determinant of standing in american politics!
 
-## 5 Key Takeaways
+All in all, we have to admit the interpretation of the axes seems more of an art than science. One is completely uninterpretable and the other two both contain gun control as one of the most significant topics. On the bright side, these axes do separate politicians very well so in some sense they do show the real world as it is – but perhaps just like the real world, we do not fully understand them yet. That said, they do clearly highlight the role of gun control, law enforcement and relation to political authorities as some of the most divisive topics of US politics in 2021 with other traditional themes such as economy and taxation nowhere in sight.
+
+<!-- ## 5 Key Takeaways -->
+
+{% include question.html in_text=true
+  text="Key Takeaways"
+  image_url="assets/img/background.jpg"
+%}
+
+Before leaving, let's summarize the key takeaways of our analysis:
 
 - Few politicians completely dominate the public debate – **silent majority** phenomenom does exist!
 - Topics politicians most talk about are not the ones where they most disagree – contrary to popular opinion, they agree on many issues!
-- Topics that most divide politicians are mostly "culture wars" ephemeral topics that have little to do with a greater vision for the country.
-- Most significant axes of todays political division are not clearly interpretable, but they show a clear dominance of topics to do with gun control or law enforcement. The **authoritativeness* axes seems alive and well!
+- Topics that most divide politicians are mostly "culture wars", ephemeral topics that have little to do with a greater vision for the country.
+- Most significant axes of todays political division are not clearly interpretable, but they show a clear dominance of topics to do with gun control or law enforcement. The **authoritativeness** axes seems alive and well!
 - On the other hand, the traditional **left-right divide** seems dead. Topics that shaped the political debate of the Global North such as government subsidies, taxation, or unions are nowhere to be found.
 
 ---
