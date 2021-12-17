@@ -94,7 +94,7 @@ Firstly, we try to reduce the number of axes to 2, to compare our results to the
 
 However, it's pretty clear that 2 axes are far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate, such as former presidents Trump and Obama, ended up being clustered pretty close together, with everybody else in one large ball of politicians.
 
-<embed type="text/html" src="assets/plotly/nca_weighted_2.html" width="810px" height="720px">
+<embed type="text/html" src="assets/plotly/nca_weighted_3.html" width="810px" height="720px">
 
 Adding a third axis leads to a vast improvement in results. Suddenly, we can see a clear difference between republicans and democrats, with radicals of both parties such as President Trump or Alexandria Ocasio Cortez appearing on the extremes as outliers, while centrists such as West Virginia Senator Joe Manchin are much more in the middle of the overall distribution of political opinions. While this is in no way conclusive, the result of addition of a third axis supports our original hypothesis that just dividing politicians among two lines is far from sufficient to capture even a simplified version of the complexity of contemporary political divide.
 
