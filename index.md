@@ -1,9 +1,5 @@
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
-<!--
-This is a bit shit, replace by better image 
-![Example of traditional policital compass](https://2.bp.blogspot.com/-mj4BKwVVT0E/UyBQIwfMv3I/AAAAAAAACbs/bClT9FdMPgU/s1600/Social+democracy+2014.png "Example of traditional compass")
--->
 ![Example of traditional policital compass](assets/img/compass_famous.png "Example of traditional compass")
 <sub> © PACE NEWS LTD 2021  </sub>
 
@@ -17,21 +13,13 @@ To find it out, we analyze [Quotebank](https://zenodo.org/record/4277311), a dat
   image_url="assets/img/background.jpg"
 %}
 
-For simplicity, we decided to focus only on quotes attributed to alive American politicians, published between 2015 and 2020. We decided to focus only on the US to reduce the impact of local, country-specific topics, and to have a well-known framework of investigation as the US political system is. After filtering with said criteria, we are left with 9.5 million quotes from 14'000 different speakers. <!--Maybe add a comment about why 14k is ok because it sounds like a LOT--> Let's now have a look at what it is that these politicians talk about – but before we do, let's see who they are!
+For simplicity, we decided to focus only on quotes attributed to alive American politicians, published between 2015 and 2020. We decided to focus only on the US to reduce the impact of local, country-specific topics, and to have a well-known framework of investigation as the US political system is. After filtering with said criteria, we are left with 9.5 million quotes from 14'000 different speakers. Let's now have a look at what it is that these politicians talk about – but before we do, let's see who they are!
 
 ### The Silent Majority
 
 Looking at the politicians with the most quotes, we can see evidence of what statisticians call a "power law" (commonly also known as the [80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)): few most quoted politicians completely dominate the debate, in spite of all the others. The most quoted politician, Donald Trump, accounts alone for almost 8% of all the quotes. To understand just how dominant that is, consider that if the quotes were uniformly distributed among our 14k politicians, an average politician should only account for 0.007% of the quotes! Indeed, our data even trump the 80-20 rule, as the top 20% of politicians account for almost 88% of the quotes. This shows that, in today's world, few of the loudest politicians completely dominate media coverage, while the majority of politicians are given very little attention. Hence, we are seeing confirmation of the existence of a [silent majority](https://en.wikipedia.org/wiki/Silent_majority) that does not express its views publicly, or does so with little to no coverage.
 
-<!--
-<iframe src="assets/plotly/number_of_quotes.html"></iframe>
--->
-
 <embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px">
-
-<!--
-![Quote distribution shows strong dominance of loudest politicians](https://via.placeholder.com/800x300?text=Placeholder+Image "Loudest policitians dominate debate")
--->
 
 ### Dominant Topics
 
@@ -39,7 +27,7 @@ Having examined the politicians behind the quotes, let's now investigate their c
 
 <!-- some kind of plot? -->
 
-<!--To do this, we look at the quotes that BERTopic finds as best representatives of the topics it found.--> Amongst the 10 topics with most quotes, many are uncannily familiar: Hillary Clinton, Iran, Womens' Rights, Taxation or Youth.
+Amongst the 10 topics with most quotes, many are uncannily familiar: Hillary Clinton, Iran, Womens' Rights, Taxation or Youth.
 
 > We have to tell young people that it does matter, every vote counts!
 >
@@ -57,27 +45,19 @@ To analyze which topics divide politicians, we first need to get their sentiment
 
 Then, we focused on the Republican/Democratic divide. On which topics do their sentiments differ the most?
 
-<!--
-![Most divisive topics are transitory culture-war issues](https://via.placeholder.com/800x300?text=Placeholder+Image "Most divisive topics")
--->
-
 <embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px">
 
-<!--
-<div>
-    <iframe src="assets/plotly/bubbleplot.html" scrolling="no" frameborder="0" seamless="seamless" allowfullscreen height="1700px" width="1000px"></iframe>
-</div>
--->
-
-<!--<span style="color:grey"> </span>-->
 In the figure above, the 10 topics that most divide democrats and republicans are represented as dots. The larger the dot, the more the topic is talked about in the news: for example, Brett Kavanaugh received a lot of attention. Most points topics are on the top left of the graph, hence Republicans have often a more positive sentiment than Democrats on the top 10 divisive topics. Indeed, half of these topics are about Republican politicians, so it's a reasonable result!
 
 The analysis shows that most divisive topics are in fact not topics of long-term vision for the country but rather concerning transient issues that we could label as part of "culture wars" – they are related to particular people who polarized the public debate, such as Mike Pompeo and Mike Pence or the former FBI director Jim Comey. Interestingly, a topic about former president Donald Trump is not present. The only long-term topic out of the most divisive ones is the 'Rejection of Paris accord', which unsurprisingly triggered positive sentiments from republicans. Another interesting finding is that 2 out of the top 10 most divisive topics are Trump-appointed Supreme Court Justices, Kavanaugh and Gorsuch, showing the politicization of the Supreme Court which has become a powerful player in a country with blocked legislature. Finally, we don't see among these topics any Democrats personality, but since the period under study (2015-2020) largely corresponds to Donald Trump's presidency, it is reasonable that people in his entourage, either members of the government of his appointees, received more attention than others.
 <!--{'920': 'Mike Pompeo','380': 'Mike Pence','558': 'Judge Neil Gorsuch','680': 'John Bolton','143': 'Kavanaugh family','208': 'FBI and Jim Comey','360': 'FISC, Adam Schiff','566': 'Rejection of Paris accord','615': 'Marco Rubio','841': 'Pittsburgh shooting'}-->
 
-<embed type="text/html" src="assets/plotly/heatmap.html" width="810px" height="720px">
+Also, it might be interesting to have a look at the sentiments on these topics of some prominent American politicians, whose opinions are generally well-known.
 
-<!-- heatmap? wordclouds? -->
+<embed type="text/html" src="assets/plotly/heatmap.html" width="810px" height="720px">
+<p style="color:grey"> In the above figure, topics above the line correspond to the 10 most divisive topics. The ones below the line, in <i>italics</i>, are instead some of the most dominant topics.</p>
+
+On average, the sentiments of politicians of each party reflect the party sentiments showed before, and for specific people it corresponds very well to what we would expect. For example, Hillary Clinton has a very negative sentiment towards Republican politicians and appointees or towards the [Pittsburgh shooting](https://en.wikipedia.org/wiki/Pittsburgh_synagogue_shooting), but has a pretty neutral sentiment towards Paris climate accord, which is coherent with the fact that climate has not exactly been one of her top priorities in the 2016 campaign. On the other side, John McCain has positive sentiments towards his party colleagues, but has a very negative opinion of the Democrat [Adam Schiff](https://en.wikipedia.org/wiki/Adam_Schiff). Despite that, there are also speakers whose sentiments are pretty confusing: why does Joe Biden have such a positive opinion of Mike Pompeo, and why the latter have such a low self-esteem? Overall, though, we can see clearly why these topics are the most divisive ones – the sentiments vary widely between opposite extremes. In contrast, the sentiments of the dominant topics we picked are very mild, and vastly similar for everyone.
 
 {% include question.html in_text=true
   text="Inferring a new<br> Political Compass"
@@ -100,7 +80,7 @@ Adding a third axis leads to a vast improvement in results. Suddenly, we can see
 
 ### Offense, player, and Starbucks?
 
-Having extracted the 3 axes that best divide the american political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. Republicans and Democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
+Having extracted the 3 axes that best divide the American political scene and found out that they work surprisingly well and preserve many semantics of the real political divide (e.g. Republicans and Democrats divide being clearly visible, moderates being closer to each other while radicals being further apart, etc), you are now surely as keen as we are to explore what the meaning of the axes is! Let's check it out!
 
 > Guns, Airports, Paul Ryan, Police officiers, Gangs
 >
@@ -112,17 +92,15 @@ Closer inspection gives a clear indication on some axes but not on others. Let's
 >
 > – <cite> Five most representative topics for Axis 1 </cite>
 
-The first axes could perhaps be best described as the **authoritativeness** axes, interestingly in correspondence with the traditional political compass. Topics here include mostly attitudes towards positions of power, number one topics concerns presidents (both american and chinese), others include governors, or [sanctuary cities](https://en.wikipedia.org/wiki/Sanctuary_city) (municipalities that have special policies in place to deliberately limit their cooperation with federal immigration agencies).
+The first axes could perhaps be best described as the **authoritativeness** axes, interestingly in correspondence with the traditional political compass. Topics here include mostly attitudes towards positions of power, number one topics concerns presidents (both American and Chinese), others include governors, or [sanctuary cities](https://en.wikipedia.org/wiki/Sanctuary_city) (municipalities that have special policies in place to deliberately limit their cooperation with federal immigration agencies).
 
 > Offense, Player, Buildings, Right History, Starbucks
 >
 > – <cite> Five most representative topics for Axis 2 </cite>
 
-Finally, the second axis is the toughest nut to crack. The best words characterizing the top 5 topics that most contribute in this axis are "offense", "player", "buildings", "right history" and "starbucks". Despite a thorough analysis, we have not been able to find a meaningful interpretation of this axis: who would have though attitudes to sports and starbucks are such a powerful determinant of standing in american politics!
+Finally, the second axis is the toughest nut to crack. The best words characterizing the top 5 topics that most contribute in this axis are "offense", "player", "buildings", "right history" and "starbucks". Despite a thorough analysis, we have not been able to find a meaningful interpretation of this axis: who would have though attitudes to sports and starbucks are such a powerful determinant of standing in American politics!
 
 All in all, we have to admit the interpretation of the axes seems more of an art than science. One is completely uninterpretable and the other two both contain gun control as one of the most significant topics. On the bright side, these axes do separate politicians very well so in some sense they do show the real world as it is – but perhaps just like the real world, we do not fully understand them yet. That said, they do clearly highlight the role of gun control, law enforcement and relation to political authorities as some of the most divisive topics of US politics in 2021 with other traditional themes such as economy and taxation nowhere in sight.
-
-<!-- ## 5 Key Takeaways -->
 
 {% include question.html in_text=false
   text="Key Takeaways"
@@ -143,4 +121,4 @@ Before leaving, let's summarize the key takeaways of our analysis:
 
 [^2]: From this step, we removed politicians with less than 1000 quotes and that have expressed themselves on less than 150 topics (the 15%), as lower thresholds under which we consider unlikely to obtain a sufficient representation of opinions. If politicians did not express an opinion towards a topic, we left their sentiment as NaN, eventually replacing it with 0 after standardization for further processing.
 
-[^3]: This approach has some clear shortcomings – by maximizing the difference between Republicans and Democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, only a supervised method such as [Neighbourhood components analysis](https://en.wikipedia.org/wiki/Neighbourhood_components_analysisthis) (NCA) gave us interesting results in terms of separation. We also tried using PCA, t-SNE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result. Also, in all the subsequent NCA plots, dimensionality reduction was applied on top of a matrix which in addition to the average sentiment also takes into account the interest in each topic, weighting the sentiment logarithmically with the number of quotes.
+[^3]: This approach has some clear shortcomings – by maximizing the difference between Republicans and Democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, only a supervised method such as [Neighbourhood components analysis](https://en.wikipedia.org/wiki/Neighbourhood_components_analysis) (NCA) gave us interesting results in terms of separation. We also tried using PCA, t-SNE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result. Also, in all the subsequent NCA plots, dimensionality reduction was applied on top of a matrix which in addition to the average sentiment also takes into account the interest in each topic, weighting the sentiment logarithmically with the number of quotes.
