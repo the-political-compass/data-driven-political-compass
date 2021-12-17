@@ -1,11 +1,5 @@
 # What guides our political affiliations?
 
-<!--
-> OOOOOOHHHH YEAAAAHHH BOY LET'S GOOO!!
->
-> – <cite> Vince McMahon </cite>
--->
-
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
 <!--
@@ -33,13 +27,17 @@ For simplicity, we decided to focus only on quotes attributed to alive American 
 
 ### The Silent Majority
 
-Looking at the politicians with the most quotes, we can see evidence of what statisticians call a "power law" (commonly also known as the [80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)): few most quoted politicians completely dominate the debate, in spite of all the others. The most quoted politician, Donald Trump, accounts alone for almost 8% of all the quotes. To understand just how dominant that is, consider that if the quotes were uniformly distributed among our 14k politicians, an average politician should only account for 0.007% of the quotes! Indeed, our data even trump the 80-20 rule, as the top 20% of politicians account for almost 88% of the quotes. This shows that, in today's world, few of the loudest politicians occupy the vast majority of media coverage, while the greatest part of politicians are given very little attention. Hence, we are seeing confirmation of the existence of a [silent majority](https://en.wikipedia.org/wiki/Silent_majority) that does not express its views publicly, or does so with little to no coverage.
+Looking at the politicians with the most quotes, we can see evidence of what statisticians call a "power law" (commonly also known as the [80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)): few most quoted politicians completely dominate the debate, in spite of all the others. The most quoted politician, Donald Trump, accounts alone for almost 8% of all the quotes. To understand just how dominant that is, consider that if the quotes were uniformly distributed among our 14k politicians, an average politician should only account for 0.007% of the quotes! Indeed, our data even trump the 80-20 rule, as the top 20% of politicians account for almost 88% of the quotes. This shows that, in today's world, few of the loudest politicians completely dominate media coverage, while the majority of politicians are given very little attention. Hence, we are seeing confirmation of the existence of a [silent majority](https://en.wikipedia.org/wiki/Silent_majority) that does not express its views publicly, or does so with little to no coverage.
 
 <!--
 <iframe src="assets/plotly/number_of_quotes.html"></iframe>
 -->
 
+<<<<<<< HEAD
 <embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="500px">
+=======
+<embed type="text/html" src="assets/plotly/number_of_quotes.html" width="1000px" height="600px"> 
+>>>>>>> 9c43ce74a57bbb32f256b3dbb5d0710512f051ee
 
 <!--
 ![Quote distribution shows strong dominance of loudest politicians](https://via.placeholder.com/800x300?text=Placeholder+Image "Loudest policitians dominate debate")
@@ -69,7 +67,11 @@ Then, we focused on the Republican/Democratic divide. On which topics do their s
 ![Most divisive topics are transitory culture-war issues](https://via.placeholder.com/800x300?text=Placeholder+Image "Most divisive topics")
 -->
 
+<<<<<<< HEAD
 <embed type="text/html" src="assets/plotly/bubbleplot.html" width="800px" height="720px">
+=======
+<embed type="text/html" src="assets/plotly/bubbleplot.html" width="810px" height="720px"> 
+>>>>>>> 9c43ce74a57bbb32f256b3dbb5d0710512f051ee
 
 <!--
 <div>

@@ -49,12 +49,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
 }
 
-p + p {
-  text-indent: 2em;
-
-  @include media-breakpoint-down(xs) { text-indent: 1em; }
-}
-
 @include media-breakpoint-down(xs) {
   .container {
     padding-left: $grid-gutter-width;
