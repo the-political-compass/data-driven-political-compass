@@ -1,11 +1,5 @@
 # What guides our political affiliations?
 
-<!--
-> OOOOOOHHHH YEAAAAHHH BOY LET'S GOOO!!
->
-> – <cite> Vince McMahon </cite>
--->
-
 Ever since the dawn of democracies, political scientists have been searching for the fundamental axes that best define our political beliefs. Are you progressive or conservative? Authoritarian or liberal? Do you favour small or big government? In order to represent such divisions, graphical representations known as "political compasses" have been created, which show where different people lie according to a set of questions that are believed to best characterise the political debate and capture the orientation of an individual.
 
 <!--
