@@ -16,7 +16,7 @@
 
 title: A data-driven Political Compass
 description: >- # this means to ignore newlines until "baseurl:"
-  How does the modern political debate look like?
+  How does the modern political debate look like in quotes?
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://the-political-compass.github.io"
 github_username:  the-political-compass
