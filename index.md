@@ -20,7 +20,14 @@ Traditionally, all these compasses are built using 2 axis: a horizontal left-rig
 To find it out, we analyze [Quotebank](https://zenodo.org/record/4277311), a dataset of ~180 milion quotations extracted from english news articles published between 2008 and 2020. Let's begin our journey!
 <!--Here we could add some example e.g. Conservatives in the UK raising taxes and giving out a lot of welfare when they were always a small-state party; democrats getting support from college-educated americans despite traditionally being a party of the working class (same with labour in the UK); rise of non-traditional parties such as En Marche in France or various parties (northern league, 5* movement) in Italy that have largely replaced the traditionally dominant christian democrats;etc-->
 
+{% include question.html in_text=true
+  text="What dominates the political debate?"
+  image_url="assets/img/background.jpg"
+%}
+
+<!--
 ## What dominates the political debate?
+-->
 
 For simplicity, we decided to focus only on quotes attributed to alive American politicians, published between 2015 and 2020. We decided to focus only on the US to reduce the impact of local, country-specific topics, and to have a well-known framework of investigation as the US political system is. After filtering with said criteria, we are left with 9.5 million quotes from 14'000 different speakers. <!--Maybe add a comment about why 14k is ok because it sounds like a LOT--> Let's now have a look at what it is that these politicians talk about – but before we do, let's see who they are!
 
@@ -77,7 +84,11 @@ In the figure above, the 10 topics that most divide democrats and republicans ar
 The analysis shows that most divisive topics are in fact not topics of long-term vision for the country but rather those relating to transient issues that we could label as part of "culture wars" – they are related to particular people who polarized the public debate such as Mike Pompeo and Mike Pence or former FBI director Jim Comey. Interestingly, a topic about former president Donald Trump is not present. The only long-term topic out of the most divisive ones is the 'Rejection of Paris accord' which unsurprisingly triggered positive sentiments from republicans. Another interesting finding is that 2 out of the top 10 most divisive topics are Trump-appointed Supreme Court Justices, Kavanaugh and Gorsuch, showing the politicization of the Supreme Court which has become a powerful player in a country with blocked legislature.
 <!--{'920': 'Mike Pompeo','380': 'Mike Pence','558': 'Judge Neil Gorsuch','680': 'John Bolton','143': 'Kavanaugh family','208': 'FBI and Jim Comey','360': 'FISC, Adam Schiff','566': 'Rejection of Paris accord','615': 'Marco Rubio','841': 'Pittsburgh shooting'}-->
 
-# New Political Compass
+{% include question.html in_text=true
+  text="A new Political Compass"
+  image_url="assets/img/background.jpg"
+%}
+
 Our analyses of 1000 topics yielded interesting results, but clearly having 1000 topics is not exactly practical for a political compass! That is why as the next step, we extracted the most important axes of division which consist of a combination of the above topics that best describes the divide between democrats and republicans [^3].
 
 #### 3 Axes Is All You Need

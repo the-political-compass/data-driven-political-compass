@@ -13,8 +13,8 @@ $themecolors:(
   intermedblue: #5B698C,
   lightblue: #BDD8F2,
   green: #84CFAC,
-  lightyellow: #EBFA7D,
-  salmon: #F2DCB3,
+  lightyellow: #200670,
+  salmon: #200670,
   brickred: #BD8273,
   purple: #B2A7DB
 );
@@ -82,7 +82,7 @@ p + p {
   &.in-text { margin-top: $margin-around-images; }
 
   color: white;
-  transition: background-color 1s;
+  transition: background-color 0.6s;
 
 
   // colors
