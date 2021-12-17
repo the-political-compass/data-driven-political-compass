@@ -115,8 +115,6 @@ Before leaving, let's summarize the key takeaways of our analysis:
 - Most significant axes of todays political division are not clearly interpretable, but they show a clear dominance of topics to do with gun control or law enforcement. The **authoritativeness** axes seems alive and well!
 - On the other hand, the traditional **left-right divide** seems dead. Topics that shaped the political debate of the Global North such as government subsidies, taxation, or unions are nowhere to be found.
 
----
-
 [^1]: Due to technical limitations, we used only a subset of 600k quotes for learning the topics, assigning then a topic to the remaining quotes with the fitted model. Also, BERTopic initially extracted more than 3000 topics, where each topic was extremely narrow and provided little interpretation possibilities. Hence, the topics were later hierarchically merged to reduce them to the 1000 we employed in the rest of the analysis.
 
 [^2]: From this step, we removed politicians with less than 1000 quotes and that have expressed themselves on less than 150 topics (the 15%), as lower thresholds under which we consider unlikely to obtain a sufficient representation of opinions. If politicians did not express an opinion towards a topic, we left their sentiment as NaN, eventually replacing it with 0 after standardization for further processing.

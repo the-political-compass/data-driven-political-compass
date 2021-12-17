@@ -56,6 +56,7 @@ blockquote {
 	margin-left: 50px;
 	padding-left: 15px;
 	border-left: 3px solid #ccc;
+	background-color: #f8f8f8;
 }
 
 @include media-breakpoint-down(xs) {
@@ -182,12 +183,13 @@ main {
     }
   }
 
-  .footnotes {
-    margin-top: 4em;
-    padding-top: 1em;
-    border-top: 5px solid $gray-600;
-    color: $gray-600;
-  }
+.footnotes {
+	margin-top: 4em;
+	padding-top: 1em;
+	border-top: 1px solid #ccc;
+	color: #6c757d;
+	font-size: 70%;
+    }
 }
 
 footer {
