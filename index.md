@@ -5,7 +5,7 @@ This is a bit shit, replace by better image
 ![Example of traditional policital compass](https://2.bp.blogspot.com/-mj4BKwVVT0E/UyBQIwfMv3I/AAAAAAAACbs/bClT9FdMPgU/s1600/Social+democracy+2014.png "Example of traditional compass")
 -->
 ![Example of traditional policital compass](assets/img/compass_famous.png "Example of traditional compass")
-<sub> © PACE NEWS LTD 2021 </sub>
+<sub> © PACE NEWS LTD 2021  </sub>
 
 Traditionally, all these compasses are built using 2 axis: a horizontal left-right econonomic scale, and a vertical authoritarian-libertarian social scale. But do these axes really define accurately the political divide of today, when political affiliations are shifting and traditional sticking points no longer hold?
 
