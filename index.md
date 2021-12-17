@@ -86,11 +86,11 @@ The analysis shows that most divisive topics are in fact not topics of long-term
 <!-- heatmap? wordclouds? -->
 
 {% include question.html in_text=true
-  text="A new Political Compass"
+  text="A data-driven Political Compass"
   image_url="assets/img/background.jpg"
 %}
 
-Our analyses of 1000 topics yielded interesting results, but clearly having 1000 topics is not exactly practical for a political compass! That is why as the next step, we extracted the most important axes of division which consist of a combination of the above topics that best describes the divide between democrats and republicans [^3].
+Our analyses of the 1000 learned topics yielded interesting results, but clearly having 1000 topics is not exactly practical for a political compass! That is why, as the next step, we reduced them extracting the most important axes of partisan division, which consist of combinations of the above topics that best divide Democrats and Republicans[^3].
 
 #### 3 Axes Is All You Need
 First, we tried to reduce the number of axes to two to compare our compass to the original political compass. However, we found out two axes were far from sufficient to split the politicians. People standing on completely opposite grounds of the political debate such as former presidents Trump and Obama ended up being clustered close together in one large ball of politicians.
@@ -130,5 +130,4 @@ All in all, we have to admit the interpretation of the axes seems more of an art
 
 [^2]: From this step, we removed politicians with less than 1000 quotes and that have expressed themselves on less than 150 topics (the 15%), as lower thresholds under which we consider unlikely to obtain a sufficient representation of opinions. If politicians did not express an opinion towards a topic, we left their sentiment as NaN, eventually replacing it with 0 after standardization for further processing.
 
-[^3]: This approach has some clear shortcomings – by maximizing the difference between republicans and democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, this supervised method (NCA) gave the best results. We also tried using PCA, TNSE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result.
-
+[^3]: This approach has some clear shortcomings – by maximizing the difference between republicans and democrats, we are not taking into account the clear differences that exist within the parties. This applies especially to the democratic party which is particularly fragmented: centrists like Joe Manchin have little in common of with extreme progressives like Alexandria Occasio Cortez. However, out of several dimensionality reduction techniques we have tried, only a supervised method such as [Neighbourhood components analysis](https://en.wikipedia.org/wiki/Neighbourhood_components_analysisthis) (NCA) gave us interesting results in terms of separation. We also tried using PCA, t-SNE, and UMAP, all unsupervised techniques, but they seemed to focus more on the number of quotes people have rather than their political opinion. This is most likely because despite the fact that we did not explicitly include number of quotes, more quoted politicians expressed a sentiment towards more topics, and they were clustered together in the reduced space as a result.
