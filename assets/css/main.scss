@@ -13,8 +13,8 @@ $themecolors:(
   intermedblue: #5B698C,
   lightblue: #BDD8F2,
   green: #84CFAC,
-  lightyellow: #200670,
-  salmon: #200670,
+  lightyellow: #EBFA7D,
+  salmon: #F2DCB3,
   brickred: #BD8273,
   purple: #B2A7DB
 );
@@ -93,7 +93,7 @@ blockquote {
     $l: length($themecolors);
 
     &:nth-child(#{$l}n + #{$i}) {
-      $color: nth(map-values($themecolors), $i);
+      $color: #200670;
       background-color: $color;
 
       &.active {

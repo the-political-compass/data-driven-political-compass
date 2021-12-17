@@ -47,6 +47,10 @@ Having examined the politicians behind the quotes, let's now investigate their c
 
 These topics are the ones which are most talked about, but are they also most divisive? Let's find out!
 
+<div>
+    <img src="assets/img/wordcloud_topics.png" width="100%" height="100%">
+</div>
+
 ### Divisive Topics
 
 To analyze which topics divide politicians, we first need to get their sentiment towards each topic. For example, do they feel positive or negative towards Hillary Clinton or Womens' Rights? To do this, we used [VADER](https://github.com/cjhutto/vaderSentiment) to assign to each quote a score between -1 and 1, corresponding to an expressed sentiment ranging from negative through neutral to positive. Then, we averaged those scores on each topic to extrapolate an **opinion** for each speaker in our dataset, capturing his overall views and beliefs[^2].
@@ -70,7 +74,9 @@ In the figure above, the 10 topics that most divide democrats and republicans ar
 
 The analysis shows that most divisive topics are in fact not topics of long-term vision for the country but rather concerning transient issues that we could label as part of "culture wars" – they are related to particular people who polarized the public debate, such as Mike Pompeo and Mike Pence or the former FBI director Jim Comey. Interestingly, a topic about former president Donald Trump is not present. The only long-term topic out of the most divisive ones is the 'Rejection of Paris accord', which unsurprisingly triggered positive sentiments from republicans. Another interesting finding is that 2 out of the top 10 most divisive topics are Trump-appointed Supreme Court Justices, Kavanaugh and Gorsuch, showing the politicization of the Supreme Court which has become a powerful player in a country with blocked legislature. Finally, we don't see among these topics any Democrats personality, but since the period under study (2015-2020) largely corresponds to Donald Trump's presidency, it is reasonable that people in his entourage, either members of the government of his appointees, received more attention than others.
 <!--{'920': 'Mike Pompeo','380': 'Mike Pence','558': 'Judge Neil Gorsuch','680': 'John Bolton','143': 'Kavanaugh family','208': 'FBI and Jim Comey','360': 'FISC, Adam Schiff','566': 'Rejection of Paris accord','615': 'Marco Rubio','841': 'Pittsburgh shooting'}-->
-  
+
+<embed type="text/html" src="assets/plotly/heatmap.html" width="810px" height="720px">
+
 <!-- heatmap? wordclouds? -->
 
 {% include question.html in_text=true
